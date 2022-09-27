@@ -2,9 +2,14 @@ const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-  mode: "development",
+  // mode: "development",
+  mode: "production",
   entry: {
     index: "./src/index.js",
     login: "./src/login.js",
@@ -49,7 +54,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
         test: /\.(jpg|png|jpeg|gif|svg)$/i, //忽略大小写
@@ -63,6 +68,21 @@ module.exports = {
           filename: "images/[name].[hash:6][ext]",
         },
       },
+    ],
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        parallel: 4,
+        extractComments: false,
+        terserOptions: {
+          format: {
+            comments: /^\**!/i,
+          },
+        },
+      }),
+      new CssMinimizerPlugin(),
     ],
   },
   plugins: [
@@ -207,6 +227,10 @@ module.exports = {
           to: path.resolve(__dirname, "./dist/img"),
         },
       ],
+    }),
+    new MiniCssExtractPlugin({
+      filename: "css/[name].css",
+      chunkFilename: "css/[name].chunk.css",
     }),
   ],
 };
