@@ -8,8 +8,8 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-  // mode: "development",
-  mode: "production",
+  mode: "development",
+  // mode: "production",
   entry: {
     index: "./src/index.js",
     login: "./src/login.js",
@@ -84,6 +84,23 @@ module.exports = {
       }),
       new CssMinimizerPlugin(),
     ],
+    splitChunks: {
+      minSize: 30 * 1024,
+      chunks: "all",
+      name: "common",
+      cacheGroups: {
+        jquery: {
+          name: "jquery",
+          test: /jquery/,
+          chunks: "all",
+        },
+        "loadash-es": {
+          name: "lodash-es",
+          test: /lodash-es/,
+          chunks: "all",
+        },
+      },
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({

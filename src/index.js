@@ -7,8 +7,4 @@ import "./js/nav";
 
 import { get } from "lodash-es";
 
-import { test1 } from "./tools";
-
-test1();
-
 console.log(get({ a: 1 }, "a"));
