@@ -40,7 +40,7 @@ module.exports = {
   },
   output: {
     filename: "js/[name].js",
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "../dist"),
   },
   devServer: {
     static: {
@@ -247,8 +247,8 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, "./src/img"),
-          to: path.resolve(__dirname, "./dist/img"),
+          from: path.resolve(__dirname, "../src/img"),
+          to: path.resolve(__dirname, "../dist/img"),
         },
       ],
     }),
