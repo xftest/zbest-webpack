@@ -14,6 +14,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.1.0",
+    "ejs-loader": "^0.5.0",
     "flexslider": "^2.7.2",
     "html-webpack-plugin": "^5.5.0",
     "jquery": "^3.6.1",
