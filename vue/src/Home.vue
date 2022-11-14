@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head lang="en">
-    <meta charset="utf-8" />
-    <title>最家</title>
-  </head>
-  <body>
+<template>
+  <div>
     <!------------------------------head------------------------------>
-    <%=require('./ejs/header.ejs')() %>
+    <Header />
     <!-------------------------banner--------------------------->
     <div class="block_home_slider">
       <div id="home_slider" class="flexslider">
@@ -288,10 +283,33 @@
       </div>
     </div>
 
-    <%=require('./ejs/gotop.ejs')()%>
+    <Gotop />
 
     <!-------------------login-------------------------->
     <!--footer-->
-    <%=require('./ejs/footer.ejs')()%>
-  </body>
-</html>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import "./css/public.css";
+import "./css/index.css";
+
+import "jquery";
+import "./js/public";
+import "./js/nav";
+
+import Header from "./components/header.vue";
+import Gotop from "./components/gotop.vue";
+import Footer from "./components/footer.vue";
+
+export default {
+  components: {
+    Header,
+    Gotop,
+    Footer,
+  },
+};
+</script>
+
+<style scoped></style>
