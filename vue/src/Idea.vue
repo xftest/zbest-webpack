@@ -1,8 +1,6 @@
 <template>
   <div>
-    <!------------------------------head------------------------------>
     <Header />
-    <!------------------------------idea------------------------------>
     <div class="address">
       <div class="wrapper clearfix">
         <a href="index.html" class="fl">首页</a>
@@ -10,7 +8,6 @@
         <a href="idea.html" class="on">创意家居</a>
       </div>
     </div>
-    <!------------------------------imgList1------------------------------>
     <div class="imgList1">
       <div class="wrapper">
         <div class="box1">
@@ -268,9 +265,7 @@
         </div>
       </div>
     </div>
-
     <Gotop />
-    <!--footer-->
     <Footer />
   </div>
 </template>
@@ -294,7 +289,6 @@ export default {
 </script>
 
 <style scoped>
-/*imglist*/
 .imgList1 a.banner {
   display: block;
   width: 100%;

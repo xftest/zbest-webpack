@@ -1,6 +1,5 @@
 <template>
   <body>
-    <!------------------------------head------------------------------>
     <Header />
     <!-----------------address------------------------------->
     <div class="address">
@@ -404,7 +403,7 @@
 
     <Gotop />
     <div class="msk"></div>
-    <!--footer-->
+
     <Footer />
   </body>
 </template>

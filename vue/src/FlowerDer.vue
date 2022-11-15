@@ -1,6 +1,5 @@
 <template>
   <body>
-    <!------------------------------head------------------------------>
     <Header />
     <!------------------------------banner------------------------------>
     <div class="banner">
@@ -314,7 +313,7 @@
 
     <Gotop />
     <div class="msk"></div>
-    <!--footer-->
+
     <Footer />
   </body>
 </template>

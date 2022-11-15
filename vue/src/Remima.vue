@@ -1,8 +1,7 @@
 <template>
   <div>
-    <!------------------------------head------------------------------>
     <Header />
-    <!------------------------------idea------------------------------>
+
     <div class="address mt">
       <div class="wrapper clearfix">
         <a href="index.html" class="fl">首页</a>
@@ -70,7 +69,7 @@
     </div>
 
     <Gotop />
-    <!--footer-->
+
     <Footer />
   </div>
 </template>

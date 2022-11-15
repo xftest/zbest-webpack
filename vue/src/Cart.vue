@@ -223,7 +223,7 @@
     </div>
 
     <Gotop />
-    <!--footer-->
+
     <Footer />
     <!----------------mask------------------->
     <div class="mask"></div>

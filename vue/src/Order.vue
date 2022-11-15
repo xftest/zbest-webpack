@@ -163,7 +163,7 @@
     </div>
 
     <Gotop />
-    <!--footer-->
+
     <Footer />
   </div>
 </template>
