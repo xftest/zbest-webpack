@@ -1,11 +1,11 @@
 <template>
   <div>
     <Header />
-    <!------------------------------banner------------------------------>
+
     <div class="banner">
       <a href="#"><img src="img/temp/zbBanner.jpg" /></a>
     </div>
-    <!-----------------address------------------------------->
+
     <div class="address">
       <div class="wrapper clearfix">
         <a href="index.html">首页</a>
@@ -15,7 +15,7 @@
         <a href="zbproList.html" class="on">桌布</a>
       </div>
     </div>
-    <!-------------------current---------------------->
+
     <div class="current">
       <div class="wrapper clearfix">
         <h3 class="fl">桌布</h3>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <!----------------proList------------------------->
+
     <ul class="proList wrapper clearfix">
       <li>
         <a href="proDetail.html">

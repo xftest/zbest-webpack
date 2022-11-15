@@ -1,7 +1,7 @@
 <template>
   <body>
     <Header />
-    <!-----------------address------------------------------->
+
     <div class="address">
       <div class="wrapper clearfix">
         <a href="index.html">首页</a>

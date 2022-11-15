@@ -49,7 +49,7 @@
         </li>
       </ul>
     </div>
-    <!-----------------address------------------------------->
+
     <div class="address">
       <div class="wrapper clearfix">
         <a href="index.html">首页</a>
@@ -57,7 +57,7 @@
         <a class="on">搜索“干花”</a>
       </div>
     </div>
-    <!-------------------current---------------------->
+
     <div class="current">
       <div class="wrapper clearfix">
         <h3 class="fl">搜索结果：“干花”</h3>
@@ -73,7 +73,7 @@
         </div>
       </div>
     </div>
-    <!----------------proList------------------------->
+
     <ul class="proList wrapper clearfix">
       <li>
         <a href="proDetail.html">

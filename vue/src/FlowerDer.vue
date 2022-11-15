@@ -1,11 +1,11 @@
 <template>
   <body>
     <Header />
-    <!------------------------------banner------------------------------>
+
     <div class="banner">
       <a href="#"><img src="img/temp/banner1.jpg" /></a>
     </div>
-    <!-----------------address------------------------------->
+
     <div class="address">
       <div class="wrapper clearfix">
         <a href="index.html">首页</a>
@@ -13,7 +13,7 @@
         <a href="flowerDer.html" class="on">装饰摆件</a>
       </div>
     </div>
-    <!-------------------current---------------------->
+
     <div class="current">
       <div class="wrapper clearfix">
         <h3 class="fl">装饰摆件</h3>
@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <!----------------proList------------------------->
+
     <ul class="proList wrapper clearfix">
       <li>
         <a href="proDetail.html">

@@ -1,11 +1,9 @@
 <template>
   <div>
     <Header />
-    <!------------------------------banner------------------------------>
     <div class="banner">
       <a href="#"><img src="img/temp/bzbig.jpg" /></a>
     </div>
-    <!-----------------address------------------------------->
     <div class="address">
       <div class="wrapper clearfix">
         <a href="index.html">首页</a>
@@ -15,7 +13,6 @@
         <a href="bzproList.html" class="on">抱枕</a>
       </div>
     </div>
-    <!-------------------current---------------------->
     <div class="current">
       <div class="wrapper clearfix">
         <h3 class="fl">桌布</h3>
@@ -31,145 +28,14 @@
         </div>
       </div>
     </div>
-    <!----------------proList------------------------->
+
     <ul class="proList wrapper clearfix">
-      <li>
+      <li v-for="item in list" :key="item.id">
         <a href="proDetail.html">
           <dl>
-            <dt><img src="img/temp/bz08.jpg" /></dt>
-            <dd>【最家】清新乡村田园抱枕</dd>
-            <dd>￥19.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz07.jpg" /></dt>
-            <dd>【最家】法式乡村复古抱枕</dd>
-            <dd>￥17.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz06.jpg" /></dt>
-            <dd>【最家】时尚图案抱枕</dd>
-            <dd>￥17.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz05.jpg" /></dt>
-            <dd>【最家】北欧时尚现代动物抱枕</dd>
-            <dd>￥59.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz04.jpg" /></dt>
-            <dd>【最家】简约格子抱枕</dd>
-            <dd>￥20.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <dl>
-          <dt><img src="img/temp/bz03.jpg" /></dt>
-          <dd>【最家】纯色棉麻抱枕</dd>
-          <dd>￥47.90</dd>
-        </dl>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz02.jpg" /></dt>
-            <dd>【最家】时尚现代叮当猫抱枕</dd>
-            <dd>￥37.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz01.jpg" /></dt>
-            <dd>【最家】欧式现代棉麻抱枕</dd>
-            <dd>￥39.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz08.jpg" /></dt>
-            <dd>【最家】清新乡村田园抱枕</dd>
-            <dd>￥19.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz07.jpg" /></dt>
-            <dd>【最家】法式乡村复古抱枕</dd>
-            <dd>￥17.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz06.jpg" /></dt>
-            <dd>【最家】时尚图案抱枕</dd>
-            <dd>￥17.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz05.jpg" /></dt>
-            <dd>【最家】北欧时尚现代动物抱枕</dd>
-            <dd>￥59.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz04.jpg" /></dt>
-            <dd>【最家】简约格子抱枕</dd>
-            <dd>￥20.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <dl>
-          <dt><img src="img/temp/bz03.jpg" /></dt>
-          <dd>【最家】纯色棉麻抱枕</dd>
-          <dd>￥47.90</dd>
-        </dl>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz02.jpg" /></dt>
-            <dd>【最家】时尚现代叮当猫抱枕</dd>
-            <dd>￥37.90</dd>
-          </dl>
-        </a>
-      </li>
-      <li>
-        <a href="proDetail.html">
-          <dl>
-            <dt><img src="img/temp/bz01.jpg" /></dt>
-            <dd>【最家】欧式现代棉麻抱枕</dd>
-            <dd>￥39.90</dd>
+            <dt><img :src="item.imgUrl" /></dt>
+            <dd>{{ item.title }}</dd>
+            <dd>￥{{ item.price }}</dd>
           </dl>
         </a>
       </li>
@@ -281,6 +147,108 @@ export default {
     Header,
     Gotop,
     Footer,
+  },
+  data() {
+    return {
+      list: [
+        {
+          id: 1,
+          imgUrl: "img/temp/bz08.jpg",
+          title: "【最家】清新乡村田园抱枕",
+          price: "19.90",
+        },
+        {
+          id: 2,
+          imgUrl: "img/temp/bz07.jpg",
+          title: "【最家】法式乡村复古抱枕",
+          price: "17.90",
+        },
+        {
+          id: 3,
+          imgUrl: "img/temp/bz06.jpg",
+          title: "【最家】时尚图案抱枕",
+          price: "17.90",
+        },
+        {
+          id: 4,
+          imgUrl: "img/temp/bz05.jpg",
+          title: "【最家】北欧时尚现代动物抱枕",
+          price: "59.90",
+        },
+        {
+          id: 5,
+          imgUrl: "img/temp/bz04.jpg",
+          title: "【最家】简约格子抱枕",
+          price: "20.90",
+        },
+        {
+          id: 6,
+          imgUrl: "img/temp/bz03.jpg",
+          title: "【最家】纯色棉麻抱枕",
+          price: "47.90",
+        },
+        {
+          id: 7,
+          imgUrl: "img/temp/bz02.jpg",
+          title: "【最家】时尚现代叮当猫抱枕",
+          price: "37.90",
+        },
+        {
+          id: 8,
+          imgUrl: "img/temp/bz01.jpg",
+          title: "【最家】欧式现代棉麻抱枕",
+          price: "39.90",
+        },
+        {
+          id: 9,
+          imgUrl: "img/temp/bz08.jpg",
+          title: "【最家】清新乡村田园抱枕",
+          price: "19.90",
+        },
+        {
+          id: 10,
+          imgUrl: "img/temp/bz07.jpg",
+          title: "【最家】法式乡村复古抱枕",
+          price: "17.90",
+        },
+        {
+          id: 11,
+          imgUrl: "img/temp/bz06.jpg",
+          title: "【最家】时尚图案抱枕",
+          price: "17.90",
+        },
+        {
+          id: 12,
+          imgUrl: "img/temp/bz05.jpg",
+          title: "【最家】北欧时尚现代动物抱枕",
+          price: "59.90",
+        },
+        {
+          id: 13,
+          imgUrl: "img/temp/bz04.jpg",
+          title: "【最家】简约格子抱枕",
+          price: "20.90",
+        },
+        {
+          id: 14,
+          imgUrl: "img/temp/bz03.jpg",
+          title: "【最家】纯色棉麻抱枕",
+          price: "47.90",
+        },
+        {
+          id: 15,
+          imgUrl: "img/temp/bz02.jpg",
+          title: "【最家】时尚现代叮当猫抱枕",
+          price: "37.90",
+        },
+        {
+          id: 16,
+          imgUrl: "img/temp/bz01.jpg",
+          title: "【最家】欧式现代棉麻抱枕",
+          price: "39.90",
+        },
+      ],
+    };
   },
 };
 </script>

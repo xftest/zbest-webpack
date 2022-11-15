@@ -5,7 +5,7 @@
     <div class="banner">
       <a href="#"><img src="img/temp/banner2.jpg" /></a>
     </div>
-    <!-----------------address------------------------------->
+
     <div class="address">
       <div class="wrapper clearfix">
         <a href="index.html">首页</a>

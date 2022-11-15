@@ -10,7 +10,6 @@
       </div>
     </div>
 
-    <!------------------------------Bott------------------------------>
     <div class="Bott">
       <div class="wrapper clearfix">
         <div class="zuo fl">
