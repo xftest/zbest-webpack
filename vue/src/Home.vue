@@ -281,11 +281,7 @@
         </div>
       </div>
     </div>
-
     <Gotop />
-
-    <!-------------------login-------------------------->
-
     <Footer />
   </div>
 </template>
@@ -293,11 +289,9 @@
 <script>
 import "./css/public.css";
 import "./css/index.css";
-
 import "jquery";
 import "./js/public";
 import "./js/nav";
-
 import Header from "./components/header.vue";
 import Gotop from "./components/gotop.vue";
 import Footer from "./components/footer.vue";

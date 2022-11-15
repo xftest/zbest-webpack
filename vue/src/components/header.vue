@@ -7,7 +7,7 @@
         </h1>
         <div class="fr clearfix" id="top1">
           <p class="fl">
-            <router-link to="/login" id="login">登录</router-link>
+            <a @click="jumpToLogin()" id="login">登录</a>
             <a href="/reg" id="reg">注册</a>
           </p>
           <form action="#" method="get" class="fl">
@@ -90,5 +90,16 @@
 </template>
 
 <script>
-export default {};
+import { useRouter } from "vue-router";
+export default {
+  setup() {
+    const router = useRouter();
+    const jumpToLogin = () => {
+      router.push("/login");
+    };
+    return {
+      jumpToLogin,
+    };
+  },
+};
 </script>
