@@ -86,7 +86,7 @@
         </div>
         <div class="orderR fr">
           <div class="msg">
-            <h3>订单内容<a href="cart.html" class="fr">返回购物车</a></h3>
+            <h3>订单内容<a href="/cart" class="fr">返回购物车</a></h3>
             <!--------ul---------------->
             <ul class="clearfix">
               <li class="fl">
@@ -128,7 +128,7 @@
             </p>
           </div>
           <!--<input type="button" name="" value="去支付"> -->
-          <a href="ok.html" class="pay">去支付</a>
+          <a href="/ok" class="pay">去支付</a>
         </div>
       </div>
     </div>

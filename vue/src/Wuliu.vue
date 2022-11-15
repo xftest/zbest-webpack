@@ -4,9 +4,9 @@
 
     <div class="address mt">
       <div class="wrapper clearfix">
-        <a href="index.html" class="fl">首页</a>
+        <a href="/" class="fl">首页</a>
         <span>/</span>
-        <a href="wuliu.html" class="on">查看物流</a>
+        <a href="/wuliu" class="on">查看物流</a>
       </div>
     </div>
 

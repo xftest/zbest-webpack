@@ -6,7 +6,7 @@
       <!-----------------logo------------------->
       <!--<div class="logo">
 				<h1 class="wrapper clearfix">
-					<a href="index.html"><img class="fl" src="img/temp/logo.png"></a>
+					<a href="/"><img class="fl" src="img/temp/logo.png"></a>
 					<img class="top" src="img/temp/cartTop01.png">
 				</h1>
 			</div>-->
@@ -15,7 +15,7 @@
         <p class="wrapper clearfix">
           <span class="fl">购物车</span>
           <img class="top" src="img/temp/cartTop01.png" />
-          <a href="index.html" class="fr">继续购物&gt;</a>
+          <a href="/" class="fr">继续购物&gt;</a>
         </p>
       </div>
       <!-----------------table------------------->
@@ -195,7 +195,7 @@
           <div class="price sAll">￥59.99</div>
           <div class="price"><a class="del" href="#2">删除</a></div>
         </div>
-        <div class="goOn">空空如也~<a href="index.html">去逛逛</a></div>
+        <div class="goOn">空空如也~<a href="/">去逛逛</a></div>
         <div class="tr clearfix">
           <label class="fl">
             <input class="checkAll" type="checkbox" />
@@ -208,7 +208,7 @@
           <p class="fr">
             <span>共<small id="sl">0</small>件商品</span>
             <span>合计:&nbsp;<small id="all">￥0.00</small></span>
-            <a href="order.html" class="count">结算</a>
+            <a href="/order" class="count">结算</a>
           </p>
         </div>
       </div>

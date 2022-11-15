@@ -8,11 +8,11 @@
 
     <div class="address">
       <div class="wrapper clearfix">
-        <a href="index.html">首页</a>
+        <a href="/">首页</a>
         <span>/</span>
-        <a href="flowerDer.html">装饰摆件</a>
+        <a href="/flowerDer">装饰摆件</a>
         <span>/</span>
-        <a href="vase_proList.html" class="on">花瓶花器</a>
+        <a href="/vase_proList" class="on">花瓶花器</a>
       </div>
     </div>
 
@@ -34,7 +34,7 @@
 
     <ul class="proList wrapper clearfix">
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase01.jpg" /></dt>
             <dd>【最家】创意现代简约白瓷干花花瓶摆件</dd>
@@ -43,7 +43,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase02.jpg" /></dt>
             <dd>【最家】现代简约白色条纹干花花瓶摆件</dd>
@@ -52,7 +52,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase03.jpg" /></dt>
             <dd>【最家】北欧现代陶瓷花瓶摆件</dd>
@@ -61,7 +61,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase04.jpg" /></dt>
             <dd>【最家】现代简约客厅茶几白色陶瓷花瓶摆件</dd>
@@ -70,7 +70,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase05.jpg" /></dt>
             <dd>【最家】仿木纹漆金裂纹台面花瓶系列套装</dd>
@@ -79,7 +79,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase06.jpg" /></dt>
             <dd>【最家】仿木竖条纹雅致台面花瓶</dd>
@@ -88,7 +88,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase07.jpg" /></dt>
             <dd>【最家】地中海风情落地大花瓶</dd>
@@ -97,7 +97,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase08.jpg" /></dt>
             <dd>【最家】东南亚复古做旧大花瓶</dd>
@@ -106,7 +106,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase01.jpg" /></dt>
             <dd>【最家】创意现代简约白瓷干花花瓶摆件</dd>
@@ -115,7 +115,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase02.jpg" /></dt>
             <dd>【最家】现代简约白色条纹干花花瓶摆件</dd>
@@ -124,7 +124,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase03.jpg" /></dt>
             <dd>【最家】北欧现代陶瓷花瓶摆件</dd>
@@ -133,7 +133,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase04.jpg" /></dt>
             <dd>【最家】现代简约客厅茶几白色陶瓷花瓶摆件</dd>
@@ -142,7 +142,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase05.jpg" /></dt>
             <dd>【最家】仿木纹漆金裂纹台面花瓶系列套装</dd>
@@ -151,7 +151,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase06.jpg" /></dt>
             <dd>【最家】仿木竖条纹雅致台面花瓶</dd>
@@ -160,7 +160,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase07.jpg" /></dt>
             <dd>【最家】地中海风情落地大花瓶</dd>
@@ -169,7 +169,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/vase08.jpg" /></dt>
             <dd>【最家】东南亚复古做旧大花瓶</dd>
@@ -257,7 +257,7 @@
           </div>
         </div>
       </div>
-      <a class="more" href="proDetail.html">查看更多细节</a>
+      <a class="more" href="/proDetail">查看更多细节</a>
     </div>
 
     <Gotop />

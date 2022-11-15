@@ -52,7 +52,7 @@
 
     <div class="address">
       <div class="wrapper clearfix">
-        <a href="index.html">首页</a>
+        <a href="/">首页</a>
         <span>/</span>
         <a class="on">搜索“干花”</a>
       </div>
@@ -76,7 +76,7 @@
 
     <ul class="proList wrapper clearfix">
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro01.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -85,7 +85,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro02.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -94,7 +94,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro03.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -103,7 +103,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro04.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -112,7 +112,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro05.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -121,7 +121,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro06.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -130,7 +130,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro07.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -139,7 +139,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro08.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -148,7 +148,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro01.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -157,7 +157,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro02.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -166,7 +166,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro03.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -175,7 +175,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro04.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -184,7 +184,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro05.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -193,7 +193,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro06.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -202,7 +202,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro07.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -211,7 +211,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/pro08.jpg" /></dt>
             <dd>【最家】跳舞兰仿真花干花</dd>
@@ -298,7 +298,7 @@
           </div>
         </div>
       </div>
-      <a class="more" href="proDetail.html">查看更多细节</a>
+      <a class="more" href="/proDetail">查看更多细节</a>
     </div>
 
     <Gotop />

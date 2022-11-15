@@ -6,9 +6,9 @@
       <div class="wrapper clearfix">
         <a href="#" class="fl">首页</a>
         <span>/</span>
-        <a href="mygxin.html">个人中心</a>
+        <a href="/mygxin">个人中心</a>
         <span>/</span>
-        <a href="myorderq.html" class="on">我的订单</a>
+        <a href="/myorderq" class="on">我的订单</a>
       </div>
     </div>
 
@@ -24,19 +24,19 @@
           <div>
             <h4>我的交易</h4>
             <ul>
-              <li><a href="cart.html">我的购物车</a></li>
-              <li><a href="myorderq.html">我的订单</a></li>
-              <li><a href="myprod.html">评价晒单</a></li>
+              <li><a href="/cart">我的购物车</a></li>
+              <li><a href="/myorderq">我的订单</a></li>
+              <li><a href="/myprod">评价晒单</a></li>
             </ul>
             <h4>个人中心</h4>
             <ul>
-              <li><a href="mygxin.html">我的中心</a></li>
-              <li><a href="address.html">地址管理</a></li>
+              <li><a href="/mygxin">我的中心</a></li>
+              <li><a href="/address">地址管理</a></li>
             </ul>
             <h4>账户管理</h4>
             <ul>
-              <li class="on"><a href="mygrxx.html">个人信息</a></li>
-              <li><a href="remima.html">修改密码</a></li>
+              <li class="on"><a href="/mygrxx">个人信息</a></li>
+              <li><a href="/remima">修改密码</a></li>
             </ul>
           </div>
         </div>
@@ -81,8 +81,8 @@
                 ><a href="#">¥99.00×1</a>
               </p>
               <p class="fr">
-                <a href="myprod.html">待评价</a>
-                <a href="orderxq.html">订单详情</a>
+                <a href="/myprod">待评价</a>
+                <a href="/orderxq">订单详情</a>
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@
             <p class="one fl">待收货</p>
             <div class="clearfix">
               <div class="fl vewwl">
-                <a href="wuliu.html" class="ckwl">查看物流</a>
+                <a href="/wuliu" class="ckwl">查看物流</a>
                 <div class="wuliu">
                   <h4>圆通速递：858888888888888</h4>
                   <ul>
@@ -110,7 +110,7 @@
                       </p>
                       <p>2016-12-03 02:20:00</p>
                     </li>
-                    <li>以上为最新跟踪信息<a href="wuliu.html">查看全部</a></li>
+                    <li>以上为最新跟踪信息<a href="/wuliu">查看全部</a></li>
                   </ul>
                 </div>
               </div>
@@ -132,7 +132,7 @@
               </p>
               <p class="fr">
                 <a href="#">确认收货</a>
-                <a href="orderxq.html">订单详情</a>
+                <a href="/orderxq">订单详情</a>
               </p>
             </div>
           </div>
@@ -155,7 +155,7 @@
               </p>
               <p class="fr">
                 <a href="#">立即支付</a>
-                <a href="orderxq.html">订单详情</a>
+                <a href="/orderxq">订单详情</a>
               </p>
             </div>
           </div>
@@ -178,7 +178,7 @@
               </p>
               <p class="fr">
                 <a href="#">交易失败</a>
-                <a href="orderxq.html">订单详情</a>
+                <a href="/orderxq">订单详情</a>
               </p>
             </div>
           </div>

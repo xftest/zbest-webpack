@@ -4,11 +4,11 @@
 
     <div class="address">
       <div class="wrapper clearfix">
-        <a href="index.html">首页</a>
+        <a href="/">首页</a>
         <span>/</span>
-        <a href="flowerDer.html">装饰摆件</a>
+        <a href="/flowerDer">装饰摆件</a>
         <span>/</span>
-        <a href="proList.html">干花花艺</a>
+        <a href="/proList">干花花艺</a>
         <span>/</span>
         <a href="#" class="on">【最家】非洲菊仿真花干花</a>
       </div>
@@ -323,35 +323,35 @@
         <div class="imgCon bd">
           <div class="likeList clearfix">
             <div>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like01.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like02.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like03.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like04.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html" class="last">
+              <a href="/proDetail" class="last">
                 <dl>
                   <dt><img src="img/temp/like05.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
@@ -360,35 +360,35 @@
               </a>
             </div>
             <div>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like01.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like02.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like03.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html">
+              <a href="/proDetail">
                 <dl>
                   <dt><img src="img/temp/like04.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>
                   <dd>￥193.20</dd>
                 </dl>
               </a>
-              <a href="proDetail.html" class="last">
+              <a href="/proDetail" class="last">
                 <dl>
                   <dt><img src="img/temp/like05.jpg" /></dt>
                   <dd>【最家】复古文艺风玻璃花瓶</dd>

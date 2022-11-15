@@ -4,9 +4,9 @@
 
     <div class="address mt">
       <div class="wrapper clearfix">
-        <a href="index.html" class="fl">首页</a>
+        <a href="/" class="fl">首页</a>
         <span>/</span>
-        <a href="myorderq.html" class="on">我的订单</a>
+        <a href="/myorderq" class="on">我的订单</a>
         <span>/</span>
         <a href="#" class="on">订单详情</a>
       </div>
@@ -24,19 +24,19 @@
           <div>
             <h4>我的交易</h4>
             <ul>
-              <li><a href="cart.html">我的购物车</a></li>
-              <li class="on"><a href="myorderq.html">我的订单</a></li>
-              <li><a href="myprod.html">评价晒单</a></li>
+              <li><a href="/cart">我的购物车</a></li>
+              <li class="on"><a href="/myorderq">我的订单</a></li>
+              <li><a href="/myprod">评价晒单</a></li>
             </ul>
             <h4>个人中心</h4>
             <ul>
-              <li><a href="mygxin.html">我的中心</a></li>
-              <li><a href="address.html">地址管理</a></li>
+              <li><a href="/mygxin">我的中心</a></li>
+              <li><a href="/address">地址管理</a></li>
             </ul>
             <h4>账户管理</h4>
             <ul>
-              <li><a href="mygrxx.html">个人信息</a></li>
-              <li><a href="remima.html">修改密码</a></li>
+              <li><a href="/mygrxx">个人信息</a></li>
+              <li><a href="/remima">修改密码</a></li>
             </ul>
           </div>
         </div>

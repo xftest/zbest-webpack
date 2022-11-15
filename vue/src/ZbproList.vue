@@ -8,11 +8,11 @@
 
     <div class="address">
       <div class="wrapper clearfix">
-        <a href="index.html">首页</a>
+        <a href="/">首页</a>
         <span>/</span>
-        <a href="decoration.html">布艺软饰</a>
+        <a href="/decoration">布艺软饰</a>
         <span>/</span>
-        <a href="zbproList.html" class="on">桌布</a>
+        <a href="zb/proList" class="on">桌布</a>
       </div>
     </div>
 
@@ -34,7 +34,7 @@
 
     <ul class="proList wrapper clearfix">
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb08.jpg" /></dt>
             <dd>【最家】清新乡村田园桌布</dd>
@@ -43,7 +43,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb07.jpg" /></dt>
             <dd>【最家】法式乡村复古桌布</dd>
@@ -52,7 +52,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb06.jpg" /></dt>
             <dd>【最家】清新简约防水桌布</dd>
@@ -61,7 +61,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb05.jpg" /></dt>
             <dd>【最家】北欧圣诞节防水桌布红色</dd>
@@ -70,7 +70,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb04.jpg" /></dt>
             <dd>【最家】田园桌布防水防油布</dd>
@@ -79,7 +79,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb03.jpg" /></dt>
             <dd>【最家】欧式家用小方桌台布</dd>
@@ -88,7 +88,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb02.jpg" /></dt>
             <dd>【最家】地中海格子桌布</dd>
@@ -97,7 +97,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb01.jpg" /></dt>
             <dd>【最家】欧式田园棉麻桌布</dd>
@@ -106,7 +106,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb08.jpg" /></dt>
             <dd>【最家】清新乡村田园桌布</dd>
@@ -115,7 +115,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb07.jpg" /></dt>
             <dd>【最家】法式乡村复古桌布</dd>
@@ -124,7 +124,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb06.jpg" /></dt>
             <dd>【最家】清新简约防水桌布</dd>
@@ -133,7 +133,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb05.jpg" /></dt>
             <dd>【最家】北欧圣诞节防水桌布红色</dd>
@@ -142,7 +142,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb04.jpg" /></dt>
             <dd>【最家】田园桌布防水防油布</dd>
@@ -151,7 +151,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb03.jpg" /></dt>
             <dd>【最家】欧式家用小方桌台布</dd>
@@ -160,7 +160,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb02.jpg" /></dt>
             <dd>【最家】地中海格子桌布</dd>
@@ -169,7 +169,7 @@
         </a>
       </li>
       <li>
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img src="img/temp/zb01.jpg" /></dt>
             <dd>【最家】欧式田园棉麻桌布</dd>
@@ -256,7 +256,7 @@
           </div>
         </div>
       </div>
-      <a class="more" href="proDetail.html">查看更多细节</a>
+      <a class="more" href="/proDetail">查看更多细节</a>
     </div>
 
     <Gotop />

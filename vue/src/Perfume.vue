@@ -8,9 +8,9 @@
 
     <div class="address">
       <div class="wrapper clearfix">
-        <a href="index.html">首页</a>
+        <a href="/">首页</a>
         <span>/</span>
-        <a href="perfume.html" class="on">蜡艺香薰</a>
+        <a href="/" class="on">蜡艺香薰</a>
       </div>
     </div>
     <!-----------------paintCon------------------------------->
@@ -19,42 +19,42 @@
         <h3><img src="img/temp/perfumeTit01.jpg" /></h3>
         <img src="img/temp/xxB01.jpg" />
         <div class="paintList">
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx01.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx02.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx103.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx104.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx105.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx106.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
@@ -67,42 +67,42 @@
         <h3><img src="img/temp/perfumeTit02.jpg" /></h3>
         <img src="img/temp/xxB02.jpg" />
         <div class="paintList">
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx201.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx202.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx203.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx204.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx205.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>
               <dd>￥299.90</dd>
             </dl>
           </a>
-          <a href="proDetail.html">
+          <a href="/proDetail">
             <dl>
               <dt><img src="img/temp/xx206.jpg" /></dt>
               <dd>新中式客厅山水装饰画墙壁挂画</dd>

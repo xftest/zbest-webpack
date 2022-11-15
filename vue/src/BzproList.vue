@@ -6,11 +6,11 @@
     </div>
     <div class="address">
       <div class="wrapper clearfix">
-        <a href="index.html">首页</a>
+        <a href="/">首页</a>
         <span>/</span>
-        <a href="decoration.html">布艺软饰</a>
+        <a href="/decoration">布艺软饰</a>
         <span>/</span>
-        <a href="bzproList.html" class="on">抱枕</a>
+        <a href="/bzproList" class="on">抱枕</a>
       </div>
     </div>
     <div class="current">
@@ -31,7 +31,7 @@
 
     <ul class="proList wrapper clearfix">
       <li v-for="item in list" :key="item.id">
-        <a href="proDetail.html">
+        <a href="/proDetail">
           <dl>
             <dt><img :src="item.imgUrl" /></dt>
             <dd>{{ item.title }}</dd>
@@ -119,7 +119,7 @@
           </div>
         </div>
       </div>
-      <a class="more" href="proDetail.html">查看更多细节</a>
+      <a class="more" href="/proDetail">查看更多细节</a>
     </div>
 
     <Gotop />

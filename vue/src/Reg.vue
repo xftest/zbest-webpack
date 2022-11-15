@@ -4,7 +4,7 @@
     <div class="reg">
       <form action="#" method="post">
         <h1>
-          <a href="index.html"><img src="img/temp/logo.png" /></a>
+          <a href="/"><img src="img/temp/logo.png" /></a>
         </h1>
         <p>用户注册</p>
         <p><input type="text" name="" value="" placeholder="请输入邮箱" /></p>
