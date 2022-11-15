@@ -25,7 +25,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style>
 @import "./css/public.css";
 @import "./css/login.css";
 </style>

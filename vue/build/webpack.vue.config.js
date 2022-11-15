@@ -25,6 +25,9 @@ const config = {
     compress: true,
     port: 9000,
     hot: true,
+    historyApiFallback: {
+      disableDotRule: true,
+    },
   },
   module: {
     rules: [
